@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./public/icon.svg" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo-list</title>
+  </head>
+  <body>
+
+    <nav class="main-nav">
+      <form>
+        <input class="search-bar" type="text">
+        <button class="submit-btn"><i class='bx-md bx bxs-plus-square'></i></button>
+      </form>
+      <button class="filter-btn"><i class='bx-md bx bx-filter-alt'></i></button>
+    </nav>
+
+    <div class="filter-box">
+      <div class="filter-item">
+        <input class="filter-item-check" type="checkbox" checked="true" name="Home" id="">
+        <div class="filter-item-dsc">
+          <h3>Home</h3>
+          <span class="item-nbr">30</span>
+        </div>
+      </div>
+      <div class="filter-item">
+        <input class="filter-item-check" type="checkbox" checked="true" name="School" id="">
+        <div class="filter-item-dsc">
+          <h3>School</h3>
+          <span class="item-nbr">30</span>
+        </div>
+      </div>
+      <div class="filter-item">
+        <input class="filter-item-check" type="checkbox" checked="true" name="Undefined" id="">
+        <div class="filter-item-dsc">
+          <h3>Undefined</h3>
+          <span class="item-nbr">30</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="todos">
+
+      
+
+    </div>
+
+    <div class="menu-overlay">
+      <div class="menu">
+        <div class="menu-item">
+          <input type="checkbox" name="Home" id="">
+          <h4>Home</h4>
+        </div>
+        <div class="menu-item">
+          <input type="checkbox" name="School" id="">
+          <h4>School</h4>
+        </div>
+        <div class="menu-item">
+          <input type="checkbox" name="Undefined" id="">
+          <h4>Undefined</h4>
+        </div>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
